@@ -21,9 +21,16 @@ public class Calculadora {
 				valorARetornar = 5;
 			break;
 			
+			/*case 6:
+				String numTexto = "2" + ", " + "3";
+				valorARetornar = Integer.parseInt(numTexto);
+				System.out.println(valorARetornar);
+			break;*/
+			
 			default:
 				System.out.println("Erorr!");
 		}
+
 		return valorARetornar;
 	}
 

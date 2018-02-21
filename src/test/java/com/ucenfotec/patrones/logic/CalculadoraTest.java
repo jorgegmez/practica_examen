@@ -38,6 +38,18 @@ public class CalculadoraTest {
 		assertEquals(5, calcTest.NumerosPrimos(5));
 	}
 	
+	/*@Test
+	public void test6() {
+		Calculadora calcTest = new Calculadora();
+		assertEquals(2, 3, calcTest.NumerosPrimos(6));
+	}*/
+	
+	@Test
+	public void test7() {
+		Calculadora calcTest = new Calculadora();
+		assertEquals(7, calcTest.NumerosPrimos(7));
+	}
+	
 	
 
 }
