@@ -9,6 +9,10 @@ public class Calculadora {
 				valorARetornar = 0;
 			break;
 			
+			case 2:
+				valorARetornar = 2;
+			break;
+			
 			default:
 				System.out.println("Erorr!");
 		}
