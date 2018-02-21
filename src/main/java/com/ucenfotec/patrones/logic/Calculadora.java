@@ -17,6 +17,10 @@ public class Calculadora {
 				valorARetornar = 3;
 			break;
 			
+			case 5:
+				valorARetornar = 5;
+			break;
+			
 			default:
 				System.out.println("Erorr!");
 		}
