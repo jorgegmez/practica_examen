@@ -19,5 +19,13 @@ public class CalculadoraTest {
 		Calculadora calcTest = new Calculadora();
 		assertEquals(2, calcTest.NumerosPrimos(2));
 	}
+	
+	@Test
+	public void test3() {
+		Calculadora calcTest = new Calculadora();
+		assertEquals(3, calcTest.NumerosPrimos(3));
+	}
+	
+	
 
 }
